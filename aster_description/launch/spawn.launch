@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <launch>
-	<param name="robot_description" command="cat '$(find aster_description)/urdf/aster.xacro'"/>
+	<param name="robot_description" command="$(find xacro)/xacro '$(find aster_description)/urdf/aster.xacro'"/>
 	
 	<arg name="x" default="0"/>
 	<arg name="y" default="0"/>
