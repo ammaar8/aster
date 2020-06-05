@@ -3,4 +3,17 @@
 	<material name="blue">
 		<color rgba="0 0.0 1.0 1.0"/>
 	</material>
+	<gazebo reference="chassis">
+		<material>Gazebo/Orange</material>
+	</gazebo>
+	<gazebo reference="right_wheel">
+		<material>Gazebo/Blue</material>
+	</gazebo>
+	<gazebo reference="left_wheel">
+		<material>Gazebo/Blue</material>
+	</gazebo>
+	<gazebo reference="visual_laser_sensor">
+		<material>Gazebo/White</material>
+	</gazebo>
+
 </robot>

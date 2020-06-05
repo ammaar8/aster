@@ -8,13 +8,13 @@
 			<origin rpy="0 1.5707 0" xyz="0 0 0"/>
 			<inertia ixx="2.478e-4" ixy="0.0" ixz="0.0" iyy="4.084e-4" iyz="0.0" izz="2.478e-4"/>			
 		</inertial>
-		<visual name="${name}_visual">
+		<visual>
 			<origin rpy="1.5707 0 0" xyz="0 0 0"/>
 			<geometry>
 				<cylinder length="0.04" radius="0.05"/>
 			</geometry>
 		</visual>
-		<collision name="${name}_collision">
+		<collision name="$collision_{name">
 			<origin rpy="1.5707 0 0" xyz="0 0 0"/>
 			<geometry>
 				<cylinder length="0.04" radius="0.05"/>
